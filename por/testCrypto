@@ -1,0 +1,8 @@
+Package por
+
+"go.dedis.ch/kyber/v3/util/key"
+
+function () [
+	input text := "hello world"
+	pair := key.NewKeyPair()
+]
