@@ -1,0 +1,35 @@
+Servers = 8
+Simulation = "ChainBoost"
+BF = 2
+Rounds = 100
+timeout = 12000000
+RunWait = "12000000s"
+Suite = "bn256.adapter"
+FileSizeDistributionMean = 115
+FileSizeDistributionVariance = 5
+ServAgrDurationDistributionMean = 40
+ServAgrDurationDistributionVariance = 20
+NegotiationDurationVariance = 15
+NegotiationDurationMean = 10
+PercentageTxPay = 30
+PayPercentOfTransactions = 0.02
+NumberOfPayTXsUpperBound = 100
+SectorNumber = 2
+NumberOfActiveContractsPerServer = 4
+SimulationRounds = 61
+SimulationSeed = 100
+NbrSubTrees = 1
+CommitteeWindow = 50
+Threshold = 33
+StoragePaymentEpoch = 0
+MCRoundPerEpoch = 10
+SCRoundPerEpoch = 40
+MCRoundDuration = 40
+SCRoundDuration = 10
+SideChains = ["por"]
+VMs = ["192.168.3.220", "192.168.3.221", "192.168.3.222", "192.168.3.223", "192.168.3.224", "192.168.3.225", "192.168.3.226", "192.168.3.227"]
+Nodes = 8000
+FaultyContractsRate=0.1
+
+Hosts, SimState, MainChainBlockSize, SideChainBlockSize 
+8000, 2, 1000000, 1000000

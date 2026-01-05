@@ -1,0 +1,7 @@
+Servers = ["192.168.3.220", "192.168.3.221", "192.168.3.222", "192.168.3.223", "192.168.3.224", "192.168.3.225", "192.168.3.226", "192.168.3.227"]
+RemoteFolder = "remote"
+Files = ["simul", "ChainBoost.toml", "mainchain.db", "simulation.bin",  "por.db"]
+Executable = "simul"
+Outputs = ["mainchain.db", "por.db"]
+User = "root"
+Debug = 2
